@@ -1,7 +1,0 @@
-package kodlama.io.rentACar.dataAccess.concretes;
-
-import kodlama.io.rentACar.dataAccess.abstracs.BrandRepository;
-
-public class InMemoryBrandRepository implements BrandRepository{
-
-}

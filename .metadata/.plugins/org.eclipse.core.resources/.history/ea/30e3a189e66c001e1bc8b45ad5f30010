@@ -1,7 +1,0 @@
-package kodlama.io.rentACar.dataAccess.abstracs;
-
-import kodlama.io.rentACar.entities.concretes.Brand;
-
-public interface BrandRepository {
-	Brand[] getAll(;)
-}

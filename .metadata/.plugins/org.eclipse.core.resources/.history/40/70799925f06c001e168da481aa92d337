@@ -1,7 +1,0 @@
-package kodlama.io.rentACar.business.abstracs;
-
-import java.util.List;
-
-public interface BrandService {
-	List<Brand> getAll();
-}
