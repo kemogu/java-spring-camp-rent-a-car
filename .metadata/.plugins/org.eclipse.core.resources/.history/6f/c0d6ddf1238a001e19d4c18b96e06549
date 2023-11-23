@@ -1,0 +1,9 @@
+package kodlama.io.rentACar.business.abstracs;
+
+import java.util.List;
+
+import jakarta.persistence.GeneratedValue;
+
+public interface ModelService {
+	List<GeneratedValue> getAll();
+}

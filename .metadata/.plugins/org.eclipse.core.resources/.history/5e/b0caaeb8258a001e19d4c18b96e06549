@@ -1,0 +1,17 @@
+package kodlama.io.rentACar.business.concretes;
+
+import java.util.List;
+
+import kodlama.io.rentACar.business.abstracs.ModelService;
+import kodlama.io.rentACar.business.responses.GetAllModelResponse;
+
+public class ModelManager implements ModelService{
+	
+	private ModelRepository modelRepository;
+	@Override
+	public List<GetAllModelResponse> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

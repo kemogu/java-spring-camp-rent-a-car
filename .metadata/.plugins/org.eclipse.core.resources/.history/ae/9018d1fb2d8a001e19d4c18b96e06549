@@ -1,0 +1,14 @@
+package kodlama.io.rentACar.core.utilities.exceptions;
+
+import org.modelmapper.internal.bytebuddy.implementation.bind.annotation.Super;
+
+public class BusinessException extends RuntimeException {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public void BusinessExceptions(String message) {
+		super(message);
+	}
+}

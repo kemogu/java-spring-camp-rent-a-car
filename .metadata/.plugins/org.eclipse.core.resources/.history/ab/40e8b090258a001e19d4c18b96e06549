@@ -1,0 +1,7 @@
+package kodlama.io.rentACar.dataAccess.abstracs;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ModelRepository extends JpaRepository<T, ID>{
+
+}
